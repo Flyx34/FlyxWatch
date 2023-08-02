@@ -360,7 +360,9 @@ footer img {
     transform: translateY(75px);
     height: 135px;
     z-index: 2;
-    backdrop-filter: blur(10px); }
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+  }
 
   ul.active li:nth-child(3) {
     padding-left: 90px; }
@@ -413,6 +415,7 @@ footer img {
     flex-direction: column;
     display: none;
     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
     top: 0;
     left: 0;
     height: 100vh;
